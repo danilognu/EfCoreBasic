@@ -1,0 +1,74 @@
+@model Domain.Entities.Person
+
+@{
+    ViewData["Title"] = "Person Registration";
+}
+
+<br /><br />
+
+<form class="form-horizontal" asp-action="Register" asp-controller="Person" method="Post">
+
+  <div class="container">
+        <div clas="span10 offset1">
+          <div class="card">
+            <div class="card-header">
+                <h3 class="well"> Person Registration </h3>
+            </div>
+            <div class="card-body">
+            <form class="form-horizontal" action="create.php" method="post">
+
+                <div class="control-group">
+                    <label class="control-label">Nome</label>
+                    <div class="controls">
+                        <input size="50" class="form-control" name="nome" type="text" placeholder="Nome" asp-for="Name" >
+                    </div>
+                </div>
+
+                <div class="control-group">
+                    <label class="control-label">Endereço</label>
+                    <div class="controls">
+                        <input size="80" class="form-control" name="endereco" type="text" placeholder="Endereço" asp-for="Endereco" required="" value="">
+                    </div>
+                </div>
+
+                <div class="control-group">
+                    <label class="control-label">Telefone</label>
+                    <div class="controls">
+                        <input size="35" class="form-control" name="telefone" type="text" placeholder="Telefone" asp-for="Telefone1" required="" value="">
+                    </div>
+                </div>
+
+                <div class="control-group">
+                    <label class="control-label">Email</label>
+                    <div class="controls">
+                        <input size="40" class="form-control" name="email" type="text" placeholder="Email" asp-for="Email" required="" value="">
+                    </div>
+                </div>
+
+                <div class="control-group">
+                    <label class="control-label">Sexo</label>
+
+                    <div class="input-group mb-3">
+                        <select class="custom-select" asp-for="Sexo" >
+                            <option value="M">Masculino</option>
+                            <option value="F">Feminino</option>
+                        </select>
+                    </div>
+
+                </div>
+                
+                <div class="form-actions">
+                    <br/>
+
+                    <button type="submit" class="btn btn-success">Adicionar</button>
+                    <a href="index.php" type="btn" class="btn btn-default">Voltar</a>
+
+                </div>
+            </form>
+          </div>
+        </div>
+        </div>
+    </div>
+    </div>
+
+    </form>

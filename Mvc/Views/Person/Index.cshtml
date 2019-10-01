@@ -1,0 +1,35 @@
+@model IEnumerable<Domain.Entities.Person> 
+
+<h2>List People</h2>
+
+<br/>
+<a href="/Register" type="btn" class="btn btn-default">Register</a>
+
+<div class="row" >
+
+<div class="col-md-12">
+    <table class="table table-hover" >
+        <thead>
+            <tr>
+                <td>Nome</td>
+            </tr>
+        </thead>
+        <body>
+            @foreach (var item in Model)
+            {
+            <tr>
+                <td>
+                    @item.Nome
+                </td>
+                <td>
+                    <a href="/Categoria/Editar/@item.Id" class="btn">Editar</a>
+                </td>
+                <td>
+                    <a href="/Categoria/Deletar/@item.Id" class="btn">Deletar</a>
+                </td>
+
+            </tr>
+            }
+        </body>
+    </table>
+</div>
