@@ -1,0 +1,9 @@
+C:\serverProjects\Core\EfCoreCrudBasic\Domain\bin\Debug\netstandard2.0\Domain.deps.json
+C:\serverProjects\Core\EfCoreCrudBasic\Domain\bin\Debug\netstandard2.0\Domain.dll
+C:\serverProjects\Core\EfCoreCrudBasic\Domain\bin\Debug\netstandard2.0\Domain.pdb
+C:\serverProjects\Core\EfCoreCrudBasic\Domain\obj\Debug\netstandard2.0\Domain.csprojAssemblyReference.cache
+C:\serverProjects\Core\EfCoreCrudBasic\Domain\obj\Debug\netstandard2.0\Domain.csproj.CoreCompileInputs.cache
+C:\serverProjects\Core\EfCoreCrudBasic\Domain\obj\Debug\netstandard2.0\Domain.AssemblyInfoInputs.cache
+C:\serverProjects\Core\EfCoreCrudBasic\Domain\obj\Debug\netstandard2.0\Domain.AssemblyInfo.cs
+C:\serverProjects\Core\EfCoreCrudBasic\Domain\obj\Debug\netstandard2.0\Domain.dll
+C:\serverProjects\Core\EfCoreCrudBasic\Domain\obj\Debug\netstandard2.0\Domain.pdb
